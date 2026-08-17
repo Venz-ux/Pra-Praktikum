@@ -1,0 +1,53 @@
+{
+  "nbformat": 4,
+  "nbformat_minor": 0,
+  "metadata": {
+    "colab": {
+      "provenance": []
+    },
+    "kernelspec": {
+      "name": "python3",
+      "display_name": "Python 3"
+    },
+    "language_info": {
+      "name": "python"
+    }
+  },
+  "cells": [
+    {
+      "cell_type": "code",
+      "source": [
+        "print(\"=== IDENTITAS DIRI ===\") #menampilkan output judul\n",
+        "print(\"Nama           : Muhammad Veno\")#untuk menampilkan output Nama\n",
+        "print(\"NIM            : 2605060064\")#untuk menampilkan output NIM\n",
+        "print(\"Tempat, Tgl Lahir : Magelang, 05-10-2005\")#untuk menampilkan output tanggal lahir\n",
+        "print(\"Alamat         : Karet Bulurejo RT1 RW3 Kecamatan Mertoyudan Kabupaten Magelang\")#untuk menampilkan output alamat\n",
+        "print(\"Jenis Kelamin  : Laki-laki\")#untuk menampilkan output jenis kelamin\n",
+        "print(\"Hobi           : Bermain game\")#untuk menampilkan output hobi"
+      ],
+      "metadata": {
+        "colab": {
+          "base_uri": "https://localhost:8080/"
+        },
+        "id": "niyDuy9Ps9Ik",
+        "outputId": "9d380753-5829-4f2b-8ed7-14f016b618b3"
+      },
+      "execution_count": null,
+      "outputs": [
+        {
+          "output_type": "stream",
+          "name": "stdout",
+          "text": [
+            "=== IDENTITAS DIRI ===\n",
+            "Nama           : Muhammad Veno\n",
+            "NIM            : 2605060064\n",
+            "Tempat, Tgl Lahir : Magelang, 05-10-2005\n",
+            "Alamat         : Karet Bulurejo RT1 RW3 Kecamatan Mertoyudan Kabupaten Magelang\n",
+            "Jenis Kelamin  : Laki-laki\n",
+            "Hobi           : Bermain game\n"
+          ]
+        }
+      ]
+    }
+  ]
+}
