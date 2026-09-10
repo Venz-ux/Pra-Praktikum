@@ -1,0 +1,128 @@
+# Program 3.1 Menampilkan output dari operasi aritmatika sederhana
+# operasi aritmatika
+
+a = 10
+b = 3
+
+# operasi tambah +
+hasil = a + b
+print (a, '+' ,b, '=' ,hasil)
+
+# operasi kurang -
+hasil = a - b
+print (a, '-' ,b, '=' ,hasil)
+
+# operasi perkalian *
+hasil = a * b
+print (a, '*' ,b, '=' ,hasil)
+
+# operasi pembagaian /
+hasil = a / b
+print (a, '/' ,b, '=' ,hasil)
+
+# operasi eksponen (pangkat) **
+hasil = a ** b
+print (a, '**' ,b, '=' ,hasil)
+
+# operasi modulus %
+hasil = a % b
+print (a, '%' ,b, '=' ,hasil)
+
+# operasi floor division //
+hasil = a // b
+print (a, '//' ,b, '=' ,hasil)
+
+
+# Program 3.2 konversi celcius ke satuan lain
+
+# Latihan konversi satuan temperature
+# program konversi celciius ke satuan lain
+
+print("\nPROGRAM KONVERSI TEMPERATUR\n")
+
+celcius = float (input('masukan suhu dalam celcius : '))
+print ("suhu adalah", celcius, "celcius")
+
+# reamur
+reamur = (4/5) * celcius 
+print ("suhu dalam reamur adalah ", reamur, "Reamur")
+
+# fahrenheit
+fahrenheit = ((9/5) * celcius) + 32
+print ("suhu dalam fahrenheit adalah", fahrenheit, "fahrenheit")
+
+# kelvin
+kelvin = celcius + 273
+print ("suhu dalam kelvin adalah ", kelvin, "kelvin")
+
+
+# Program 3.3 Operasi komperasi
+
+# operasi komperasi
+# setiap hasil dari operasi komperasi adalah boolean
+# >,<,>=, <=,==,!=,is,is not
+
+a = 4
+b = 2
+
+# lebih besar dari >
+print ("=============== lebih besar dari (>)")
+hasil = a > 3
+print (a, '>' ,b, '=' ,hasil)
+hasil = b > 3
+print (b, '>' ,3, '=' ,hasil)
+hasil = b > 2
+print (b, '>' ,2, '=' ,hasil)
+
+# kurang dari < 
+print ("============== kurang dari (<)")
+hasil = a < 3
+print (a, '<' ,b, '=' ,hasil)
+hasil = b < 3
+print (b, '<' ,3, '=' , hasil)
+hasil = b < 2
+print (b, '<' ,2, '=' ,hasil)
+
+# lebih dari sama dengan >=
+print ("============== lebih dari sama dengan (>=) ")
+hasil = a >= 3
+print (a, '>=' ,b, '=' ,hasil)
+hasil = b >= 3
+print (b, '>=' ,3, '=' ,hasil)
+hasil = b >= 2
+print (b, '>=' ,2, '=' ,hasil)
+
+# kurang dari sama dengan <=
+print("=============== kurang dari sama dengan (<=) ")
+hasil = a <= 3
+print (a, '<=' ,b, '=' ,hasil)
+hasil = b <= 3
+print (b, '<=' ,3, '=' ,hasil)
+hasil = b <= 2
+print (b, '<=' ,2, '=' ,hasil)
+
+# sama dengan (==)
+print ("============= sama dengan (==)")
+hasil = a == 4
+print (a, '==', 4, '=' ,hasil)
+hasil = b == 4 
+print (b, '==', 4, '==' ,hasil)
+
+# tidak sama dengan (!=)
+print ("============= sama dengan (!=)")
+hasil = a != 4
+print(a, '!=', 4, '=' , hasil)
+hasil = b != 4
+print (b, '!=', 4, '=' ,hasil)
+
+# 'is' sebagai komparasi obj identity (bukan literal)
+x = 5 # ini adalah assignment membuat object
+y = 6
+hasil = x is y
+print ('x is y =' ,hasil)
+
+# 'is not' sebegai komparasi obj identity (buka literal)
+x = 5 # ini adalah assignment membuat object
+y = 6
+hasil = x is not y
+print ('x is not y =' ,hasil)
